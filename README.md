@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Joshuahuahua/KTANE-ASSISTANT/blob/CLI/extras/icon/icon_updated_dark.png" width="128" height="128">
+  <img src="https://github.com/Joshuahuahua/RedStuff/blob/main/src/main/resources/redstuff_logo.png" width="600" height="200">
 </p>
 
 <h1 align="center">RedStuff For Minecraft 1.16.4 (ver 1.0)</h1>
