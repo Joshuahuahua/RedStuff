@@ -1,0 +1,19 @@
+#Anything that is optional which you are not using, just delete that line. You can also delete any of the '#comments'
+
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved" #mandatory https://choosealicense.com/
+#issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+modId="redstuff" #mandatory
+version="1.0" #mandatory
+displayName="RedStuff" #mandatory
+#updateJSONURL="http://myurl.me/" #optional
+displayURL="https://github.com/Joshuahuahua/RedStuff/" #optional
+logoFile="redstuff_logo.png" #optional
+credits="Thanks to RedPower and ProjectRed for fueling and inspiring this project." #optional
+authors="Joshuahuahua, IoNelio" #optional
+description='''
+An o7 to RedPower and ProjectRed
+''' #mandatory

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "minecraft:diamond",
+  "experience": 100,
+  "cookingtime": 20
+}
