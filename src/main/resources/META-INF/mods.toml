@@ -13,7 +13,7 @@ displayName="RedStuff" #mandatory
 displayURL="https://github.com/Joshuahuahua/RedStuff/" #optional
 logoFile="redstuff_logo.png" #optional
 credits="Thanks to RedPower and ProjectRed for fueling and inspiring this project." #optional
-authors="Joshuahuahua, IoNelio" #optional
+authors="Joshuahuahua, ioNelio" #optional
 description='''
 An o7 to RedPower and ProjectRed
 ''' #mandatory
