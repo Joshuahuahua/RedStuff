@@ -2,7 +2,9 @@ package me.joshuahuahua.redstuff;
 
 import me.joshuahuahua.redstuff.init.BlockInit;
 import me.joshuahuahua.redstuff.init.ItemInit;
+import me.joshuahuahua.redstuff.word.OreGeneration;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -22,6 +24,8 @@ public class RedStuff {
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

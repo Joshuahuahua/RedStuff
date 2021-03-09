@@ -3,6 +3,7 @@ package me.joshuahuahua.redstuff.init;
 import me.joshuahuahua.redstuff.RedStuff;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
@@ -26,6 +27,9 @@ public class BlockInit {
             RedStuff.MOD_ID);
 
     // Copper
+    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore",
+            () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
+
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
             () -> new Block(AbstractBlock.Properties.create(Material.IRON)
                     .hardnessAndResistance(5f, 6f)
