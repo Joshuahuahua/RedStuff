@@ -2,6 +2,8 @@ package me.joshuahuahua.redstuff;
 
 import me.joshuahuahua.redstuff.core.init.BlockInit;
 import me.joshuahuahua.redstuff.core.init.ItemInit;
+import me.joshuahuahua.redstuff.core.init.LampBlockInit;
+import me.joshuahuahua.redstuff.core.init.LampItemInit;
 import me.joshuahuahua.redstuff.world.OreGeneration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -29,6 +31,8 @@ public class RedStuff {
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        LampBlockInit.BLOCKS.register(bus);
+        LampItemInit.ITEMS.register(bus);
 
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 

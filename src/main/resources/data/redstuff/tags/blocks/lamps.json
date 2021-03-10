@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "redstuff:white_lamp",
+    "redstuff:orange_lamp",
+    "redstuff:magenta_lamp",
+    "redstuff:light_blue_lamp",
+    "redstuff:yellow_lamp",
+    "redstuff:lime_lamp",
+    "redstuff:pink_lamp",
+    "redstuff:gray_lamp",
+    "redstuff:light_gray_lamp",
+    "redstuff:cyan_lamp",
+    "redstuff:purple_lamp",
+    "redstuff:blue_lamp",
+    "redstuff:brown_lamp",
+    "redstuff:green_lamp",
+    "redstuff:red_lamp",
+    "redstuff:black_lamp"
+  ]
+}

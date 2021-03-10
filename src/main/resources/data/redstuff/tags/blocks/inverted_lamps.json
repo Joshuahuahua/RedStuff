@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "redstuff:inverted_white_lamp",
+    "redstuff:inverted_orange_lamp",
+    "redstuff:inverted_magenta_lamp",
+    "redstuff:inverted_light_blue_lamp",
+    "redstuff:inverted_yellow_lamp",
+    "redstuff:inverted_lime_lamp",
+    "redstuff:inverted_pink_lamp",
+    "redstuff:inverted_gray_lamp",
+    "redstuff:inverted_light_gray_lamp",
+    "redstuff:inverted_cyan_lamp",
+    "redstuff:inverted_purple_lamp",
+    "redstuff:inverted_blue_lamp",
+    "redstuff:inverted_brown_lamp",
+    "redstuff:inverted_green_lamp",
+    "redstuff:inverted_red_lamp",
+    "redstuff:inverted_black_lamp"
+  ]
+}

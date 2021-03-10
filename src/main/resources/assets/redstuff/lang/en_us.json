@@ -7,5 +7,39 @@
 
   "block.redstuff.copper_block": "Copper Block",
   "block.redstuff.copper_ore": "Copper Ore",
-  "block.redstuff.lamp": "Lamp"
+
+  "block.redstuff.white_lamp": "White Lamp",
+  "block.redstuff.orange_lamp": "Orange Lamp",
+  "block.redstuff.magenta_lamp": "Magenta Lamp",
+  "block.redstuff.light_blue_lamp": "Light Blue Lamp",
+  "block.redstuff.yellow_lamp": "Yellow Lamp",
+  "block.redstuff.lime_lamp": "Lime Lamp",
+  "block.redstuff.pink_lamp": "Pink Lamp",
+  "block.redstuff.gray_lamp": "Gray Lamp",
+  "block.redstuff.light_gray_lamp": "Light Gray Lamp",
+  "block.redstuff.cyan_lamp": "Cyan Lamp",
+  "block.redstuff.purple_lamp": "Purple Lamp",
+  "block.redstuff.blue_lamp": "Blue Lamp",
+  "block.redstuff.brown_lamp": "Brown Lamp",
+  "block.redstuff.green_lamp": "Green Lamp",
+  "block.redstuff.red_lamp": "Red Lamp",
+  "block.redstuff.black_lamp": "Black Lamp",
+
+  "block.redstuff.inverted_white_lamp": "Inverted White Lamp",
+  "block.redstuff.inverted_orange_lamp": "Inverted Orange Lamp",
+  "block.redstuff.inverted_magenta_lamp": "Inverted Magenta Lamp",
+  "block.redstuff.inverted_light_blue_lamp": "Inverted Light Blue Lamp",
+  "block.redstuff.inverted_yellow_lamp": "Inverted Yellow Lamp",
+  "block.redstuff.inverted_lime_lamp": "Inverted Lime Lamp",
+  "block.redstuff.inverted_pink_lamp": "Inverted Pink Lamp",
+  "block.redstuff.inverted_gray_lamp": "Inverted Gray Lamp",
+  "block.redstuff.inverted_light_gray_lamp": "Inverted Light Gray Lamp",
+  "block.redstuff.inverted_cyan_lamp": "Inverted Cyan Lamp",
+  "block.redstuff.inverted_purple_lamp": "Inverted Purple Lamp",
+  "block.redstuff.inverted_blue_lamp": "Inverted Blue Lamp",
+  "block.redstuff.inverted_brown_lamp": "Inverted Brown Lamp",
+  "block.redstuff.inverted_green_lamp": "Inverted Green Lamp",
+  "block.redstuff.inverted_red_lamp": "Inverted Red Lamp",
+  "block.redstuff.inverted_black_lamp": "Inverted Black Lamp"
+
 }

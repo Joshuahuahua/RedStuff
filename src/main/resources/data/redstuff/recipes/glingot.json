@@ -2,25 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#r#",
-    "ERE"
+    "#g#",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
-    },
-    "r": {
-      "item": "redstuff:glingot"
-    },
-    "E": {
-      "item": "redstuff:copper_ingot"
-    },
-    "R": {
       "item": "minecraft:redstone"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {
-    "item": "redstuff:lamp",
+    "item": "redstuff:glingot",
     "count": 1
   }
 }
