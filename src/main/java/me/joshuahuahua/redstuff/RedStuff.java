@@ -1,8 +1,12 @@
 package me.joshuahuahua.redstuff;
 
-import me.joshuahuahua.redstuff.init.BlockInit;
-import me.joshuahuahua.redstuff.init.ItemInit;
-import me.joshuahuahua.redstuff.word.OreGeneration;
+import me.joshuahuahua.redstuff.core.init.BlockInit;
+import me.joshuahuahua.redstuff.core.init.ItemInit;
+import me.joshuahuahua.redstuff.world.OreGeneration;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.NonNullList;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +21,7 @@ public class RedStuff {
 
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "redstuff";
+    public static final ItemGroup REDSTUFF_GROUP = new RedStuffGroup("RedStuff");
 
     public RedStuff() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -32,5 +37,24 @@ public class RedStuff {
 
     private void setup(final FMLCommonSetupEvent event) {
 
+    }
+
+    public static class RedStuffGroup extends ItemGroup {
+
+        public RedStuffGroup(String label) {
+            super(label);
+        }
+
+        @Override
+        public ItemStack createIcon() {
+            return ItemInit.GLINGOT.get().getDefaultInstance();
+            //return Items.ACACIA_BOAT.getDefaultInstance();
+        }
+
+        @Override
+        public void fill(NonNullList<ItemStack> items) {
+            items.add(Items.ACACIA_FENCE.getDefaultInstance());
+            super.fill(items);
+        }
     }
 }

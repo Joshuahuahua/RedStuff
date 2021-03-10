@@ -1,10 +1,7 @@
-package me.joshuahuahua.redstuff.init;
+package me.joshuahuahua.redstuff.core.init;
 
 import me.joshuahuahua.redstuff.RedStuff;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
@@ -31,9 +28,16 @@ public class BlockInit {
             () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
 
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
-                    .hardnessAndResistance(5f, 6f)
+            () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
+    // Misc
+
+    public static final RegistryObject<Block> LAMP = BLOCKS.register("lamp",
+            () -> new Block(AbstractBlock.Properties.create(Material.GLASS)
+                    .hardnessAndResistance(0.3f, 3f)
                     .harvestTool(ToolType.PICKAXE)
-                    .harvestLevel(2)
-                    .sound(SoundType.METAL)));
+                    .harvestLevel(-1)
+                    .sound(SoundType.GLASS)
+                    .setLightLevel((POG)->15)));
+                    //.setLightLevel(15);
+
 }

@@ -1,6 +1,6 @@
-package me.joshuahuahua.redstuff.word;
+package me.joshuahuahua.redstuff.world;
 
-import me.joshuahuahua.redstuff.init.BlockInit;
+import me.joshuahuahua.redstuff.core.init.BlockInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;

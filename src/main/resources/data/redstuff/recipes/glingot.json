@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#r#",
+    "ERE"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "r": {
+      "item": "redstuff:glingot"
+    },
+    "E": {
+      "item": "redstuff:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "redstuff:lamp",
+    "count": 1
+  }
+}
