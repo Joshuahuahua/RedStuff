@@ -1,5 +1,6 @@
 package me.joshuahuahua.redstuff;
 
+import jdk.nashorn.internal.ir.Block;
 import me.joshuahuahua.redstuff.core.init.BlockInit;
 import me.joshuahuahua.redstuff.core.init.ItemInit;
 import me.joshuahuahua.redstuff.core.init.LampBlockInit;
@@ -57,7 +58,7 @@ public class RedStuff {
 
         @Override
         public void fill(NonNullList<ItemStack> items) {
-            items.add(Items.ACACIA_FENCE.getDefaultInstance());
+            //items.add(LampItemInit.INVERTED_BLACK_LAMP.get().getDefaultInstance());
             super.fill(items);
         }
     }

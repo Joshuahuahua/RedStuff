@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "redstuff:lamps"
-  },
-  "result": "minecraft:diamond",
-  "experience": 100,
-  "cookingtime": 20
-}

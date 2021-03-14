@@ -13,7 +13,7 @@
       "item": "redstuff:glingot"
     },
     "E": {
-      "item": "redstuff:copper_ingot"
+      "tag": "forge:ingots/copper"
     },
     "R": {
       "item": "minecraft:redstone_torch"
