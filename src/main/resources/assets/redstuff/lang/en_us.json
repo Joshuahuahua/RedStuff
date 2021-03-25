@@ -40,6 +40,8 @@
   "block.redstuff.inverted_brown_lamp": "Inverted Brown Lamp",
   "block.redstuff.inverted_green_lamp": "Inverted Green Lamp",
   "block.redstuff.inverted_red_lamp": "Inverted Red Lamp",
-  "block.redstuff.inverted_black_lamp": "Inverted Black Lamp"
+  "block.redstuff.inverted_black_lamp": "Inverted Black Lamp",
+
+  "block.redstuff.test_block": "Test Block"
 
 }

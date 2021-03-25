@@ -18,7 +18,7 @@ import net.minecraftforge.registries.ForgeRegistries;
     5+: modded picks
 */
 
-
+un
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             RedStuff.MOD_ID);
@@ -30,10 +30,6 @@ public class BlockInit {
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
             () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
 
-    public static final RegistryObject<Block> TEST = BLOCKS.register("white_lamp",
-            () -> new Block(AbstractBlock.Properties.create(Material.GLASS)
-                    .hardnessAndResistance(0.3f, 3f)
-                    .harvestTool(ToolType.PICKAXE)
-                    .harvestLevel(-1)
-                    .sound(SoundType.GLASS)));
+    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
+            () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
 }

@@ -28,4 +28,7 @@ public class ItemInit {
 
     public static final RegistryObject<BlockItem> COPPER_ORE = ITEMS.register("copper_ore",
             () -> new BlockItem(BlockInit.COPPER_ORE.get(), new Item.Properties().group(RedStuff.REDSTUFF_GROUP)));
+    // Misc
+    public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block",
+        () -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties().group(RedStuff.REDSTUFF_GROUP)));
 }

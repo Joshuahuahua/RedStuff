@@ -1,6 +1,7 @@
 package me.joshuahuahua.redstuff.core.event;
 
 import me.joshuahuahua.redstuff.RedStuff;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.Explosion;
 import net.minecraft.world.World;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
@@ -14,7 +15,7 @@ public class EventHandler {
 
     @SubscribeEvent
     public static void penis(final BlockEvent.BreakEvent event) {
-
+        event.getPlayer().sendMessage(new TextComponentString("This is sendmessage example string."));
         event.setCanceled(true);
     }
     /*
