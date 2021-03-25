@@ -2,6 +2,8 @@ package me.joshuahuahua.redstuff.core.init;
 
 import me.joshuahuahua.redstuff.RedStuff;
 import net.minecraft.block.*;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,4 +29,11 @@ public class BlockInit {
 
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
             () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
+
+    public static final RegistryObject<Block> TEST = BLOCKS.register("white_lamp",
+            () -> new Block(AbstractBlock.Properties.create(Material.GLASS)
+                    .hardnessAndResistance(0.3f, 3f)
+                    .harvestTool(ToolType.PICKAXE)
+                    .harvestLevel(-1)
+                    .sound(SoundType.GLASS)));
 }
