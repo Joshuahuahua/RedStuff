@@ -1,6 +1,7 @@
 package me.joshuahuahua.redstuff.core.init;
 
 import me.joshuahuahua.redstuff.RedStuff;
+import me.joshuahuahua.redstuff.blocks.LampBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
@@ -18,7 +19,6 @@ import net.minecraftforge.registries.ForgeRegistries;
     5+: modded picks
 */
 
-un
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             RedStuff.MOD_ID);
@@ -30,6 +30,6 @@ public class BlockInit {
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
             () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
 
-    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
-            () -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
+    public static final RegistryObject<LampBlock> TEST_BLOCK = BLOCKS.register("test_block",
+            () -> new LampBlock());
 }

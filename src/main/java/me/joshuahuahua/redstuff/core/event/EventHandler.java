@@ -15,8 +15,7 @@ public class EventHandler {
 
     @SubscribeEvent
     public static void penis(final BlockEvent.BreakEvent event) {
-        event.getPlayer().sendMessage(new TextComponentString("This is sendmessage example string."));
-        event.setCanceled(true);
+        // TODO
     }
     /*
     public void onNeighborBlockChange(World world, int x, int y, int z, Block block) {
